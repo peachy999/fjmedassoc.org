@@ -1,0 +1,361 @@
+body h1 {
+   font-family: 'Karla', sans-serif;
+   text-align: center;
+   padding: 50px;
+}
+h2 {
+  letter-spacing: 2px;
+}
+h3{
+  font-size: 20pt;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.dinner-picture{
+  max-width: 80%;
+  max-height: 50%;
+}
+.container{
+  text-align: center;
+  margin-top: 0;
+}
+.news-text {
+  text-align: left;
+  margin-left: 100px;
+  position:static;
+}
+@media(max-width:1290px){
+  .news-text {
+    margin-left:30px;
+}
+.container-lg{
+  margin-top: 50px;
+  border: solid 1pt;
+  font-size: 25pt;
+  padding:1rem;
+  width:50%;
+  text-align: center;
+}
+.container-md{
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 400px;
+  height:50rem;
+  padding:5rem;
+  border: solid 1pt;
+}
+.container-fluid{
+  padding: 0;
+}
+.site-header {
+  background-color: rgb(24, 60, 94);
+  min-height: 100px;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  margin: 0 auto;
+  color: #fff;
+  border-style: solid;
+  border-width: 0px;
+  transition: ease-in-out color .15s;
+}
+
+
+.nav-item  a:hover {
+  opacity: 0.5;
+}
+.navbar-brand{
+  border-width: 0px !important;
+}
+.link-nav{
+  padding-right: 3rem;
+  font-size: 1.5rem;
+  color:black;
+}
+
+.headerlogo{
+  height: 60px;
+}
+.footerlogo{
+  height: 140px;
+}
+.centered{
+  text-align: center;
+}
+.navbar-toggler{
+  border: 2px solid rgba(98, 201, 209, 0.3);
+}
+
+.margin-b-2{
+  margin-bottom: 2rem !important;
+}
+.theme1 {
+	padding: 4em 2em;
+	background: white;
+  width:100%;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+.theme2 {
+	padding: 4em 2em;
+	background: #ecf3fa;
+}
+.nav-brand{
+  margin-left: 0px !important;
+/* end of navbar */
+}
+iframe{
+  width: 100%;
+  min-height: 250px;
+}
+.display-4 {
+    font-size: 1.5rem;
+}
+.lead{
+  font-size: 1.0rem;
+}
+.media-logo{
+  width: 40px;
+  height: 40px;
+}
+.wechat-qr{
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+@media (min-width: 355px) {
+  .headerlogo{
+    height: 70px;
+  }
+}
+@media (min-width: 396px) {
+  .display-4 {
+      font-size: 1.75rem;
+  }
+  .headerlogo{
+    height: 80px;
+  }
+}
+@media (min-width: 470px) {
+  .headerlogo{
+    height: 100px;
+  }
+}
+
+@media (min-width: 542px) {
+  .headerlogo{
+    height: 120px;
+  }
+}
+
+@media (min-width: 680px) {
+  .display-4 {
+      font-size: 3.0rem;
+  }
+  .lead{
+      font-size: 1.5rem;
+  }
+  .headerlogo{
+    height: 140px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .display-4 {
+      font-size: 3.5rem;
+  }
+  .headerlogo{
+    height: 180px;
+  }
+  .site-header a{
+    font-size: 1.2em;
+  }
+  .display-4{
+    font-size: 5rem;
+  }
+}
+
+
+/* carousel */
+.carousel-item .col-4{
+  padding: 0;
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(33%);
+}
+
+.carousel-inner .carousel-item-left.active,
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-33%);
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{
+  transform: translateX(0);
+
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
+/* board of directors */
+.board-img {
+  height:350px;
+  width:290px;
+  float:left;
+  padding-right: 30px;
+}
+.bio {
+  padding-left: :50px;
+}
+.bio-summary {
+  text-align: left;
+}
+.names{
+  font-size: 20pt;
+  line-height: 1;
+}
+.names2{
+  font-weight: lighter;
+}
+
+.summary{
+  float:right;
+  padding-bottom: 50px;
+}
+.container{
+  padding-top: 2rem;
+  margin-bottom: :2rem;
+}
+
+/* Medical students page */
+
+/* membership page */
+.member-text {
+  line-height: 2;
+  padding:50px;
+  font-size:15pt;
+}
+
+/* donate page */
+.donate-text{
+  line-height: 2;
+  padding:50px;
+  font-size: 15pt;
+}
+
+/* mentor page */
+.mentor-text {
+  line-height: 2;
+  padding:50px;
+  font-size:15pt;
+}
+
+/* past events page */
+.past-events-text{
+  text-align: left;
+}
+.donation-pic{
+  width: 520px;
+  height: 393.75px;
+  text-align: center;
+  width:100%;
+  height:auto;
+}
+.right-text {
+}
+
+@media (max-width:590px){
+  .donation-pic {
+  }
+}
+
+@media (max-width:1326px){
+  .health-seminar-pic {
+    width:100%;
+  }
+}
+
+/* store page */
+.women-size {
+  height:auto;
+  width:100%;
+}
+.men-size{
+  width:100%;
+  height:auto;
+}
+.d-block {
+  height:400px;
+  width:400px;
+}
+.store-text {
+  line-height: 2;
+  padding:50px;
+  font-size: 15pt;
+}

@@ -22,13 +22,10 @@ h3{
 }
 .news-text {
   text-align: left;
-  margin-left: 100px;
+  margin-left: 50px;
   position:static;
 }
-@media(max-width:1290px){
-  .news-text {
-    margin-left:30px;
-}
+
 .container-lg{
   margin-top: 50px;
   border: solid 1pt;
@@ -37,15 +34,7 @@ h3{
   width:50%;
   text-align: center;
 }
-.container-md{
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 400px;
-  height:50rem;
-  padding:5rem;
-  border: solid 1pt;
-}
+	
 .container-fluid{
   padding: 0;
 }
